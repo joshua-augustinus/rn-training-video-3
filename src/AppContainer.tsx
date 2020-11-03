@@ -22,7 +22,7 @@ class HomeScreen extends React.Component<Props> {
     render() {
         return (
             <SafeAreaView style={{ flex: 1 }}>
-                <Video source={{ uri: VIDEO_URL }}
+                <Video source={{ uri: VIDEO_URL }} resizeMode="contain"
                     style={styles.backgroundVideo} />
             </SafeAreaView>
 
