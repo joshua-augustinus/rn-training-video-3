@@ -14,7 +14,7 @@ type Props = {
     navigation: NavigationStackProp<{ userId: string }>;
 }
 
-const VIDEO_URL = "https://filesamples.com/samples/video/mp4/sample_1280x720.mp4";
+const VIDEO_URL = "https://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4";
 
 class HomeScreen extends React.Component<Props> {
 
